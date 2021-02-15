@@ -53,11 +53,11 @@ public class CaesarCipher {
     }
     
     public void testEncryptTwoKeys(){
-        int key1 = 8;
-        int key2 = 21;
-        FileResource fr = new FileResource();
-        String message = fr.asString();
-        String encrypted = encryptTwoKeys(message, key1, key2);
+        int key1 = 2;
+        int key2 = 20;
+        //FileResource fr = new FileResource();
+        //String message = fr.asString();
+        String encrypted = encryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx", 26-key1, 26-key2);
         System.out.println(encrypted);
     }
 }
