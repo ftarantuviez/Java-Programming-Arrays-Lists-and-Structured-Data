@@ -93,5 +93,13 @@ public class CeaserBreaker {
         String decrypted = decryptTwoKeys(encrypted);
         System.out.println("The decrypted message is " + decrypted);
     }
+    
+    public void decryptTwoKeysKnown(){
+        int key1 = 14;
+        int key2 = 24;
+        String str = "Hfs cpwewloj loks cd Hoto kyg Cyy.";
+        CaesarCipher cc = new CaesarCipher();
+        System.out.println(cc.encryptTwoKeys(str, 26-key1, 26-key2));
+    }
 }
 

@@ -25,9 +25,9 @@ public class CaesarCipher {
     
     public void testEncrypt(){
         int key = 15;
-        FileResource fr = new FileResource();
-        String message = fr.asString();
-        String encrypted = encrypt(message, key);
+        //FileResource fr = new FileResource();
+        //String message = fr.asString();
+        String encrypted = encrypt("Can you imagine life WITHOUT the internet AND computers in your pocket?", key);
         System.out.println("key is " + key + "\n" + encrypted);
     }
     
@@ -53,11 +53,11 @@ public class CaesarCipher {
     }
     
     public void testEncryptTwoKeys(){
-        int key1 = 2;
-        int key2 = 20;
+        int key1 = 21;
+        int key2 = 8;
         //FileResource fr = new FileResource();
         //String message = fr.asString();
-        String encrypted = encryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx", 26-key1, 26-key2);
+        String encrypted = encryptTwoKeys("Can you imagine life WITHOUT the internet AND computers in your pocket?", key1, key2);
         System.out.println(encrypted);
     }
 }
