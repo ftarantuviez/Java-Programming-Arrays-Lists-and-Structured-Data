@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=LogEntry
 comment1.params=ip\ time\ req\ status\ bytes
-comment1.target=LogEntry(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.target=LogEntry(java.lang.String,\ java.util.Date,\ java.lang.String,\ int,\ int)
 comment2.params=
 comment2.target=java.lang.String\ getIpAddress()
 comment3.params=
-comment3.target=java.lang.String\ getAccessTime()
+comment3.target=java.util.Date\ getAccessTime()
 comment4.params=
 comment4.target=java.lang.String\ getRequest()
 comment5.params=
