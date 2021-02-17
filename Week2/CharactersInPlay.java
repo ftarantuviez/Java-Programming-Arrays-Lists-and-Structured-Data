@@ -37,8 +37,8 @@ public class CharactersInPlay {
     
     public void testFindAllCharacters(){
         findAllCharacters();
-        int num1 = 2;
-        int num2 = 1000;
+        int num1 = 10;
+        int num2 = 15;
         charactersWithNumParts(num1, num2);
         
         //for(int k=0; k<myChars.size(); k++){

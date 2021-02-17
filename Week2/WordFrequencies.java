@@ -34,9 +34,9 @@ public class WordFrequencies {
         findUnique();
         int maxIndex = findIndexOfMax();
         System.out.println("The number of unique words is: "+ myWords.size());
-        for(int k=0; k<myWords.size(); k++){
-            System.out.println(myWords.get(k) + " = " + myFreqs.get(k) );
-        }
+        //for(int k=0; k<myWords.size(); k++){
+          //  System.out.println(myWords.get(k) + " = " + myFreqs.get(k) );
+        //}
             System.out.println("The largest frequency is the word = " + myWords.get(maxIndex) + "(" + myFreqs.get(maxIndex) + ")");
     }
     
